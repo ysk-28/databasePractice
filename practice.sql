@@ -80,7 +80,7 @@ select substring(code,1,1) ,name from countries;
 
 -- 問20
 -- 国名が長いものから順に国名と国名の長さを出力してください。
-select name, length(name) from countries order by length desc;
+select name, length(name) from countries order by length(name) desc;
 
 -- 問21
 -- 全ての地方の平均寿命、平均人口を表示してください。(NULLも表示)
